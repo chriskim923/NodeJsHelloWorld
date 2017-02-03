@@ -1,0 +1,12 @@
+1) We need to make a package.json file
+2) Run $npm init
+	-Whatever is in parenthesis is the default if you press enter
+	-Lets just call it myapp
+	-Version default is fine
+	-Description: Simple test app
+	-Entry point (this is the main file): keep it as app.js that we made earlier in this folder
+	-Skip: test command, git repository, keywords, author, license
+3) Now we have a package.json file
+4) Open up app.js
+5) We will now create a basic web server
+6) Start with a variable const http = require('http');
