@@ -1,6 +1,5 @@
 const http = require('http');
-// If you want to load a file:
-const fs = require('fs');
+const fs = require('fs'); // Required to use any module ie. index.html
 
 // Host locally use loopback address 127.0.0.1
 const hostname = '127.0.0.1';
@@ -27,5 +26,6 @@ fs.readFile('index.html', (err, html) => {
 	});
 });
 
-
+// Save all changes
+// Restart server: ctrl-C to end last run; $node app
 // Run server on web browser by typing 127.0.0.1:3000
